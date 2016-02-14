@@ -86,16 +86,8 @@ taxi_list = [
                  " 876-924-4833", ],
                 "Mortec Taxi Service", ""
                 ),
-    TaxiService(
-        ["876-960-5096"], "Unique 24 Hour Taxi Service",
-        "Billjam@cwjamaica.com"),
-
     TaxiService(["876-930-2012",
                  "876-930-1589"], "Cool Cabs", "collcabs1@hotmail.com"),
-    TaxiService(["876-765-0200",
-                 "876-765-2288",
-                 "876-765-2742"], "Gadgepro Taxi & Tours", ""),
-    TaxiService(["876-908-1862"], "Walker Reliable Taxi Service", ""),
 
     TaxiService(["876-929-8294"], "Blue Diamond Taxi-Cab Ltd",
                 "bluediamondtaxicabjm@gmail.com"),
@@ -105,12 +97,6 @@ taxi_list = [
     TaxiService(
         ["876-758-2604"], "City Guide Taxi Service Ltd",
         "cityguidetaxi@yahoo.com"),
-    TaxiService(["876-758-4615 ", " 876-758-4135"], "Klassique Taxi Co", ""),
-    TaxiService(
-        ["876-906-2040", " 876-594-4789"], "Take You Home Taxi Service", "",),
-    TaxiService(
-        ["876-755-2220", " 876-905-1386"], "Confidence Taxi Serv", ""),
-
 ]
 
 JUTCList = [
