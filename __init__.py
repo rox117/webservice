@@ -6,7 +6,7 @@ import time
 from flask import request
 service = Flask(__name__)
 coordinates = ''
-FILEPATH = realpath('webservice/staticInfo.py')
+FILEPATH = '/home/rreid/mona_X_api/webservice/staticInfo.py'
 
 
 def isFileMod(datemodified):

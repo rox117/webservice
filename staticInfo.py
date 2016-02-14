@@ -170,7 +170,7 @@ eateries_list = [
     Restaurant("", "A.Z Preston Hall", 
                "A.Z Preston Hall Cafeteria", False, [0,0], "Cafeteria"),
 
-    Restaurant("", "Talyor Hall", [],
+    Restaurant("", "Talyor Hall",
                "Taylor Hall Cafeteria", False, [0,0], "Cafeteria"),
 
     Restaurant("", "Rex Nettleford Hall",
