@@ -75,7 +75,7 @@ def getCoordinates():
 @service.route('/service/eateries')
 def getEateriesList():
     response = jsonify(
-        {'EateriesList': [i.JsonSerialize() for i in eateries_list]})
+        {'RestaurantList': [i.JsonSerialize() for i in eateries_list]})
     try:
         if not isFileMod(request.headers.get('Last-Modified')):
             response.status_code = 304
