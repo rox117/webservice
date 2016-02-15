@@ -122,44 +122,44 @@ JUTCList = [
 eateries_list = [
 
     Restaurant("Opens 9am-12am", "Ring Rd, Chancellor Hall",
-               "Kentucky Fried Chicken", False, [0, 0], "Cafeteria"),
+               "Kentucky Fried Chicken", False, 18.006170, -76.744724, "Cafeteria"),
 
     Restaurant("Opens 6am-7pm", "Faculty of Science and Technology",
-               "Juici Patties", False, [0, 0], "Fast Food"),
+               "Juici Patties", False, 18.005052, -76.748482, "Fast Food"),
 
     Restaurant("Opens 9am-10pm", "Students Union",
-               "Yao Chinese Restaurant", False, [0, 0], "Restaurant"),
+               "Yao Chinese Restaurant", False, 18.000850, -76.743325, "Restaurant"),
 
     Restaurant("Opens 7am-6pm", "Ring Rd, Humanities and Education",
-               "BeeHive", False, [0, 0], "Restaurant"),
+               "BeeHive", False, 18.004532, -76.746367, "Restaurant"),
 
     Restaurant("Opens 6am-3am", "Humanities and Education",
-               "Nardo's Snack Shop", False, [0, 0], "Stall"),
+               "Nardo's Snack Shop", False, 18.004991, -76.745777, "Stall"),
 
     Restaurant("Opens 11am-8pm", "Students Union",
-               "The Spot Sports Bar and Grill", False, [0, 0], "Restaurant"),
+               "The Spot Sports Bar and Grill", False, 18.000850, -76.743325, "Restaurant"),
 
     Restaurant("", "Ring Rd, Chancellor Hall",
-               "Pages Cafe", False, [0, 0], "Restaurant"),
+               "Pages Cafe", False, 0, 0, "Restaurant"),
 
     Restaurant("", "",
-               "Social Welfare", False, [0, 0], "Cafeteria"),
+               "Social Welfare", False, 0, 0, "Cafeteria"),
 
     Restaurant("", "Mary Seacole Hall",
-               "Mae's Cafeteria", False, [0, 0], "Cafeteria"),
+               "Mae's Cafeteria", False, 0, 0, "Cafeteria"),
 
     Restaurant("", "ABC Hall",
-               "ABC Cafeteria", False, [0, 0], "Cafeteria"),
+               "ABC Cafeteria", False, 0, 0, "Cafeteria"),
 
     Restaurant("", "",
-               "Dukkuno Deli", False, [0, 0], "Deli"),
+               "Dukkuno Deli", False, 0, 0, "Deli"),
 
     Restaurant("", "A.Z Preston Hall",
-               "A.Z Preston Hall Cafeteria", False, [0, 0], "Cafeteria"),
+               "A.Z Preston Hall Cafeteria", False, 0, 0, "Cafeteria"),
 
     Restaurant("", "Talyor Hall",
-               "Taylor Hall Cafeteria", False, [0, 0], "Cafeteria"),
+               "Taylor Hall Cafeteria", False, 0, 0, "Cafeteria"),
 
     Restaurant("", "Rex Nettleford Hall",
-               "Rex Nettleford Hall Cafeteria", False, [0, 0], "Cafeteria")
+               "Rex Nettleford Hall Cafeteria", False, 0, 0, "Cafeteria")
 ]
