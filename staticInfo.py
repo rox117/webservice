@@ -123,44 +123,44 @@ JUTCList = [
 eateries_list = [
 
     Restaurant("Opens 9am-12am", "Ring Rd, Chancellor Hall",
-               "Kentucky Fried Chicken", False, 18.006170, -76.744724, url_for("static", filename="images/Restaurants/kfc.png")),
+               "Kentucky Fried Chicken", False, 18.006170, -76.744724, "http://rox116.pythonanywhere.com/images/Restaurants/kfc.png"),
 
     Restaurant("Opens 6am-7pm", "Faculty of Science and Technology",
-               "Juici Patties", False, 18.005052, -76.748482, "http://rox116.pythonanywhere.com/images/Restaurants/juici.png")),
+               "Juici Patties", False, 18.005052, -76.748482, "http://rox116.pythonanywhere.com/images/Restaurants/juici.png"),
 
     Restaurant("Opens 9am-10pm", "Students Union",
-               "Yao Chinese Restaurant", False, 18.000850, -76.743325, "http://rox116.pythonanywhere.com/images/Restaurants/yao.png")),
+               "Yao Chinese Restaurant", False, 18.000850, -76.743325, "http://rox116.pythonanywhere.com/images/Restaurants/yao.png"),
 
         Restaurant("Opens 7am-6pm", "Ring Rd, Humanities and Education",
-               "BeeHive", False, 18.004532, -76.746367, "http://rox116.pythonanywhere.com/images/Restaurants/beehive.png")),
+               "BeeHive", False, 18.004532, -76.746367, "http://rox116.pythonanywhere.com/images/Restaurants/beehive.png"),
 
                    Restaurant("Opens 6am-3am", "Humanities and Education",
-                              "Nardo's Snack Shop", False, 18.004991, -76.745777, "http://rox116.pythonanywhere.com/images/Restaurants/juici.png")),
+                              "Nardo's Snack Shop", False, 18.004991, -76.745777, "http://rox116.pythonanywhere.com/images/Restaurants/juici.png"),
 
                    Restaurant("Opens 11am-8pm", "Students Union",
-                              "The Spot Sports Bar and Grill", False, 18.000850, -76.743325, "")),
+                              "The Spot Sports Bar and Grill", False, 18.000850, -76.743325, ""),
 
                    Restaurant("", "Ring Rd, Chancellor Hall",
-                              "Pages Cafe", False, 0, 0, "")),
+                              "Pages Cafe", False, 0, 0, ""),
 
                    Restaurant("", "",
-                              "Social Welfare", False, 0, 0, "")),
+                              "Social Welfare", False, 0, 0, ""),
 
                    Restaurant("", "Mary Seacole Hall",
-                              "Mae's Cafeteria", False, 0, 0, "")),
+                              "Mae's Cafeteria", False, 0, 0, ""),
 
                    Restaurant("", "ABC Hall",
-                              "ABC Cafeteria", False, 0, 0, "")),
+                              "ABC Cafeteria", False, 0, 0, ""),
 
                    Restaurant("", "",
-                              "Dukkuno Deli", False, 0, 0, "")),
+                              "Dukkuno Deli", False, 0, 0, ""),
 
                    Restaurant("", "A.Z Preston Hall",
-                              "A.Z Preston Hall Cafeteria", False, 0, 0, "")),
+                              "A.Z Preston Hall Cafeteria", False, 0, 0, ""),
 
                    Restaurant("", "Talyor Hall",
-                              "Taylor Hall Cafeteria", False, 0, 0, "")),
+                              "Taylor Hall Cafeteria", False, 0, 0, ""),
 
                    Restaurant("", "Rex Nettleford Hall",
-                              "Rex Nettleford Hall Cafeteria", False, 0, 0, ""))
+                              "Rex Nettleford Hall Cafeteria", False, 0, 0, "")
                ]
