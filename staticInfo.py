@@ -122,44 +122,44 @@ JUTCList = [
 eateries_list = [
 
     Restaurant("Opens 9am-12am", "Ring Rd, Chancellor Hall",
-               "Kentucky Fried Chicken", False, 18.006170, -76.744724, "http://rox116.pythonanywhere.com/static/images/Restaurants/kfc.png"),
+               "Kentucky Fried Chicken", False, 18.006170, -76.744724, url_for("static", filename="images/Restaurants/kfc.png")),
 
     Restaurant("Opens 6am-7pm", "Faculty of Science and Technology",
-               "Juici Patties", False, 18.005052, -76.748482, "http://rox116.pythonanywhere.com/static/images/Restaurants/juici.png"),
+               "Juici Patties", False, 18.005052, -76.748482, url_for("static", filename="images/Restaurants/juici.png")),
 
     Restaurant("Opens 9am-10pm", "Students Union",
-               "Yao Chinese Restaurant", False, 18.000850, -76.743325, "http://rox116.pythonanywhere.com/static/images/Restaurants/nardo.png"),
+               "Yao Chinese Restaurant", False, 18.000850, -76.743325, url_for("static", filename="images/Restaurants/nardo.png")),
 
     Restaurant("Opens 7am-6pm", "Ring Rd, Humanities and Education",
-               "BeeHive", False, 18.004532, -76.746367, "http://rox116.pythonanywhere.com/static/images/Restaurants/beehive.png"),
+               "BeeHive", False, 18.004532, -76.746367, url_for("static", filename="images/Restaurants/beehive.png")),
 
     Restaurant("Opens 6am-3am", "Humanities and Education",
-               "Nardo's Snack Shop", False, 18.004991, -76.745777, "http://rox116.pythonanywhere.com/static/images/Restaurants/nardo.png"),
+               "Nardo's Snack Shop", False, 18.004991, -76.745777, url_for("static", filename="images/Restaurants/juici.png")),
 
     Restaurant("Opens 11am-8pm", "Students Union",
-               "The Spot Sports Bar and Grill", False, 18.000850, -76.743325, "http://rox116.pythonanywhere.com/static/images/Restaurants/nardo.png"),
+               "The Spot Sports Bar and Grill", False, 18.000850, -76.743325, url_for("static", filename="images/Restaurants/juici.png")),
 
     Restaurant("", "Ring Rd, Chancellor Hall",
-               "Pages Cafe", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/nardo.png"),
+               "Pages Cafe", False, 0, 0, url_for("static", filename="images/Restaurants/juici.png")),
 
     Restaurant("", "",
-               "Social Welfare", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/nardo.png"),
+               "Social Welfare", False, 0, 0, url_for("static", filename="images/Restaurants/juici.png")),
 
     Restaurant("", "Mary Seacole Hall",
-               "Mae's Cafeteria", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/nardo.png"),
+               "Mae's Cafeteria", False, 0, 0, url_for("static", filename="images/Restaurants/juici.png")),
 
     Restaurant("", "ABC Hall",
-               "ABC Cafeteria", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/nardo.png"),
+               "ABC Cafeteria", False, 0, 0, url_for("static", filename="images/Restaurants/juici.png")),
 
     Restaurant("", "",
-               "Dukkuno Deli", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/nardo.png"),
+               "Dukkuno Deli", False, 0, 0, url_for("static", filename="images/Restaurants/juici.png")),
 
     Restaurant("", "A.Z Preston Hall",
-               "A.Z Preston Hall Cafeteria", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/nardo.png"),
+               "A.Z Preston Hall Cafeteria", False, 0, 0, url_for("static", filename="images/Restaurants/juici.png")),
 
     Restaurant("", "Talyor Hall",
-               "Taylor Hall Cafeteria", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/nardo.png"),
+               "Taylor Hall Cafeteria", False, 0, 0, url_for("static", filename="images/Restaurants/juici.png")),
 
     Restaurant("", "Rex Nettleford Hall",
-               "Rex Nettleford Hall Cafeteria", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/nardo.png")
+               "Rex Nettleford Hall Cafeteria", False, 0, 0, url_for("static", filename="images/Restaurants/juici.png"))
 ]
