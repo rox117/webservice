@@ -138,29 +138,29 @@ eateries_list = [
                               "Nardo's Snack Shop", False, 18.004991, -76.745777, "http://rox116.pythonanywhere.com/static/images/Restaurants/nardo.png"),
 
                    Restaurant("Opens 11am-8pm", "Students Union",
-                              "The Spot Sports Bar and Grill", False, 18.000850, -76.743325, ""),
+                              "The Spot Sports Bar and Grill", False, 18.000850, -76.743325, "http://rox116.pythonanywhere.com/static/images/Restaurants/yao.png"),
 
                    Restaurant("", "Ring Rd, Chancellor Hall",
-                              "Pages Cafe", False, 0, 0, ""),
+                              "Pages Cafe", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/yao.png"),
 
                    Restaurant("", "",
-                              "Social Welfare", False, 0, 0, ""),
+                              "Social Welfare", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/yao.png"),
 
                    Restaurant("", "Mary Seacole Hall",
-                              "Mae's Cafeteria", False, 0, 0, ""),
+                              "Mae's Cafeteria", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/yao.png"),
 
                    Restaurant("", "ABC Hall",
-                              "ABC Cafeteria", False, 0, 0, ""),
+                              "ABC Cafeteria", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/yao.png"),
 
                    Restaurant("", "",
-                              "Dukkuno Deli", False, 0, 0, ""),
+                              "Dukkuno Deli", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/yao.png"),
 
                    Restaurant("", "A.Z Preston Hall",
-                              "A.Z Preston Hall Cafeteria", False, 0, 0, ""),
+                              "A.Z Preston Hall Cafeteria", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/yao.png"),
 
                    Restaurant("", "Talyor Hall",
-                              "Taylor Hall Cafeteria", False, 0, 0, ""),
+                              "Taylor Hall Cafeteria", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/yao.png"),
 
                    Restaurant("", "Rex Nettleford Hall",
-                              "Rex Nettleford Hall Cafeteria", False, 0, 0, "")
+                              "Rex Nettleford Hall Cafeteria", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/yao.png")
                ]
