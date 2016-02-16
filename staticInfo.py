@@ -135,7 +135,7 @@ eateries_list = [
                "BeeHive", False, 18.004532, -76.746367, "http://rox116.pythonanywhere.com/static/images/Restaurants/beehive.png"),
 
                    Restaurant("Opens 6am-3am", "Humanities and Education",
-                              "Nardo's Snack Shop", False, 18.004991, -76.745777, "http://rox116.pythonanywhere.com/static/images/Restaurants/juici.png"),
+                              "Nardo's Snack Shop", False, 18.004991, -76.745777, "http://rox116.pythonanywhere.com/static/images/Restaurants/nardo.png"),
 
                    Restaurant("Opens 11am-8pm", "Students Union",
                               "The Spot Sports Bar and Grill", False, 18.000850, -76.743325, ""),
