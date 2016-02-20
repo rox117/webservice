@@ -140,27 +140,27 @@ eateries_list = [
                    Restaurant("Opens 11am-8pm", "Students Union",
                               "The Spot Sports Bar and Grill", False, 18.000850, -76.743325, "http://rox116.pythonanywhere.com/static/images/Restaurants/yao.png"),
 
-                   Restaurant("", "Ring Rd, Chancellor Hall",
+                   Restaurant("Opens 7am-6pm", "Ring Rd, Chancellor Hall",
                               "Pages Cafe", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/yao.png"),
 
-                   Restaurant("", "",
-                              "Social Welfare", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/yao.png"),
+                   Restaurant("Opens 7am-6pm", "Social Welfare Training Centre",
+                              "Social Welfare Cafeteria", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/yao.png"),
 
-                   Restaurant("", "Mary Seacole Hall",
+                   Restaurant("Opens 7am-6pm", "Mary Seacole Hall",
                               "Mae's Cafeteria", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/yao.png"),
 
-                   Restaurant("", "ABC Hall",
+                   Restaurant("Opens 7am-6pm", "ABC Hall",
                               "ABC Cafeteria", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/yao.png"),
 
-                   Restaurant("", "",
+                   Restaurant("Opens 8am-7pm", "Faculty of Social Sciences",
                               "Dukkuno Deli", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/yao.png"),
 
-                   Restaurant("", "A.Z Preston Hall",
+                   Restaurant("Opens 7am-6pm", "A.Z Preston Hall",
                               "A.Z Preston Hall Cafeteria", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/yao.png"),
 
-                   Restaurant("", "Talyor Hall",
+                   Restaurant("Opens 7am-6pm", "Talyor Hall",
                               "Taylor Hall Cafeteria", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/yao.png"),
 
-                   Restaurant("", "Rex Nettleford Hall",
+                   Restaurant("Opens 7am-6pm", "Rex Nettleford Hall",
                               "Rex Nettleford Hall Cafeteria", False, 0, 0, "http://rox116.pythonanywhere.com/static/images/Restaurants/yao.png")
                ]
