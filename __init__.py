@@ -2,9 +2,18 @@ from flask import Flask, jsonify
 from staticInfo import *
 from os.path import realpath
 from os.path import getmtime
+from os import getenv
 import time
+from flask_oauthlib.provider import OAuth2Provider
 from flask import request
+from werkzeug.contrib.cache import SimpleCache
+
+
+
+  
+
 service = Flask(__name__)
+oath=OAuth2Provider(service)
 coordinates = ''
 FILEPATH = '/home/rreid/mona_X_api/webservice/staticInfo.py'
 
@@ -20,45 +29,22 @@ def isFileMod(datemodified):
 def getShuttleRoutes():
     response = jsonify(
         {'Shuttlelist': [i.JsonSerialize() for i in shuttle_list]})
-    try:
-        if not isFileMod(request.headers.get('Last-Modified')):
-            response.status_code = 304
-    except Exception:
-        pass
-    response.headers[
-        'Last-Modified'] = str(getmtime(FILEPATH))
-    print response.headers.get('Last-Modified')
-    print request.headers.get('Last-Modified')
     return response
+    
+@service.route("/service/guild_routes")
+def getGuildRoutes():
+    response=jsonify({"GuildList":[i.JsonSerialize() for i in guild_list]})
 
 
 @service.route('/service/taxi_services/')
 def getTaxiServices():
     response = jsonify({'TaxiList': [i.JsonSerialize() for i in taxi_list]})
-    try:
-        if not isFileMod(request.headers.get('Last-Modified')):
-            response.status_code = 304
-    except Exception:
-        pass
-    response.headers[
-        'Last-Modified'] = str(getmtime(FILEPATH))
-    print response.headers.get('Last-Modified')
-    print request.headers.get('Last-Modified')
     return response
 
 
 @service.route('/service/jutc_routes/')
 def getJUTCRoutes():
     response = jsonify({'JUTCList': [i.JsonSerialize() for i in JUTCList]})
-    try:
-        if not isFileMod(request.headers.get('Last-Modified')):
-            response.status_code = 304
-    except Exception:
-        pass
-    response.headers[
-        'Last-Modified'] = str(getmtime(FILEPATH))
-    print response.headers.get('Last-Modified')
-    print request.headers.get('Last-Modified')
     return response
 
 
@@ -76,13 +62,7 @@ def getCoordinates():
 def getEateriesList():
     response = jsonify(
         {'RestaurantList': [i.JsonSerialize() for i in eateries_list]})
-    # try:
-    #     if not isFileMod(request.headers.get('Last-Modified')):
-    #         response.status_code = 304
-    # except Exception:
-    #     pass
-    # response.headers["Last-Modified"] = str(getmtime(FILEPATH))
     return response
 
 if __name__ == "__main__":
-    service.run()
+    service.run(host = getenv('IP','0.0.0.0'), port=int(getenv('PORT',8080)))

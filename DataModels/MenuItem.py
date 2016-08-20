@@ -1,5 +1,5 @@
 from JsonSerializable import JsonSerializable
-from mongokit import Document, Connection
+from flask.ext.mongokit import MongoKit, Document
 
 
 class MenuItem(Document, JsonSerializable):
