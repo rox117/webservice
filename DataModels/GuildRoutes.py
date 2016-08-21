@@ -6,7 +6,7 @@ class GuildRoute(Document,JsonSerializable):
     
     def __init__(self,title,route,cost,departure_time):
         self.__routetitle=title
-        self.__route=route
+        self.__routelist=routelist
         self.__cost=cost
         self.__departure_time=departure_time
         
@@ -14,11 +14,11 @@ class GuildRoute(Document,JsonSerializable):
         
         structure={
             "__routetitle":str,
-            "__route":str,
+            "__routelist":list,
             "__cost":str,
             "__departure_time":str
         }
         
         
         
-        required_fields=["__cost","__title","__route","__departure_time"]
+        required_fields=["__cost","__routetitle","__routelist","__departure_time"]
