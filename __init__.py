@@ -34,6 +34,7 @@ def getShuttleRoutes():
 @service.route("/service/guild_routes")
 def getGuildRoutes():
     response=jsonify({"GuildList":[i.JsonSerialize() for i in guild_list]})
+    return response
 
 
 @service.route('/service/taxi_services/')
