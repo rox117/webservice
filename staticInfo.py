@@ -167,7 +167,7 @@ eateries_list = [
 
 guild_list = [
         GuildRoute("Harbour View", ["Harbour Drive","Harbour View Mini-Stadium", "Fort Nugent", "Mars Drive","Rockfort","Winward Road", "Mountain View Avenue",
-        "Old Hope Road", "Wellington Drive", "Mona Road", "UWI"], "$100", "6:30 AM 9:30 PM")
+        "Old Hope Road", "Wellington Drive", "Mona Road", "UWI"], "$100", "6:30 AM 9:30 PM"),
         GuildRoute("Duhaney Park", ["Pete's Bakery", "Glendale Scheme", "Hughenden", "Queensborough", "Price Right", "Perkins Boulevard",
         "Meadowbrook Estate", "Duhaney Drive", "Duhaney Park Plaze","Washington Boulevard", "Patrick Dirve", "Pembrook Hall Drive","Half-Way-Tree", "Hope Road", "Mona Road", "UWI"],"$100", "6:00 AM, 6:30 AM, 9:30 PM"),
         GuildRoute("Spanish Town", ["L.O.J. Shopping Centre", "TwickenHam Park", "Greendale", "Central Village", "Mandela Drive", "6 Miles",
