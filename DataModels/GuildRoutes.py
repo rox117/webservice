@@ -6,7 +6,7 @@ class GuildRoute(Document,JsonSerializable):
     
     def __init__(self,title,route,cost,departure_time):
         self.__routetitle=title
-        self.__routelist=routelist
+        self.__routelist=route
         self.__cost=cost
         self.__departure_time=departure_time
         
