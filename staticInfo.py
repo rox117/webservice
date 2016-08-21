@@ -167,14 +167,14 @@ eateries_list = [
 
 guild_list = [
         GuildRoute("Harbour View", ["Harbour Drive","Harbour View Mini-Stadium", "Fort Nugent", "Mars Drive","Rockfort","Winward Road", "Mountain View Avenue",
-        "Old Hope Road", "Wellington Drive", "Mona Road", "UWI"], "$100", "6:30 AM 9:30 PM"),
+        "Old Hope Road", "Wellington Drive", "Mona Road", "UWI"], "$150", "6:30 AM 9:30 PM"),
         GuildRoute("Duhaney Park", ["Pete's Bakery", "Glendale Scheme", "Hughenden", "Queensborough", "Price Right", "Perkins Boulevard",
-        "Meadowbrook Estate", "Duhaney Drive", "Duhaney Park Plaze","Washington Boulevard", "Patrick Dirve", "Pembrook Hall Drive","Half-Way-Tree", "Hope Road", "Mona Road", "UWI"],"$100", "6:00 AM, 6:30 AM, 9:30 PM"),
+        "Meadowbrook Estate", "Duhaney Drive", "Duhaney Park Plaze","Washington Boulevard", "Patrick Dirve", "Pembrook Hall Drive","Half-Way-Tree", "Hope Road", "Mona Road", "UWI"],"$150", "6:00 AM, 6:30 AM, 9:30 PM"),
         GuildRoute("Spanish Town", ["L.O.J. Shopping Centre", "TwickenHam Park", "Greendale", "Central Village", "Mandela Drive", "6 Miles",
-        "3 Miles", "Spanish Town Road", "Maxfield Avenue", "Russell Road", "Beechwood Avenue", "Half-Way-Tree Road", "Oxford Road", "Old Hope Road"], "$100", "6:00 AM, 6:30 AM, 4:30 PM, 7:30 PM, 9:30 PM"),
+        "3 Miles", "Spanish Town Road", "Maxfield Avenue", "Russell Road", "Beechwood Avenue", "Half-Way-Tree Road", "Oxford Road", "Old Hope Road"], "$160", "6:00 AM, 6:30 AM, 4:30 PM, 7:30 PM, 9:30 PM"),
         GuildRoute("20 Route", ["UWI", "Mona Road", "Wellington Road", "Old Hope Road", "Oxford Road", "Half-Way-Tree Road",
         "Beechwood Avenue", "Russell Road", "Maxfield Avenue", "Spanish Town Road", "3 Miles", "Marcus Garvey Drive", "Causeway Bridge & Toll Road",
-        "Portmore Mall", "Silverstone", "Scotia Bank", "Esso Gas Station", "Caribbean Estate", "One North", "Monza", "Daytona", "3 North", "Epsom"], "$100", "9:30 PM"),
+        "Portmore Mall", "Silverstone", "Scotia Bank", "Esso Gas Station", "Caribbean Estate", "One North", "Monza", "Daytona", "3 North", "Epsom"], "$180", "9:30 PM"),
         GuildRoute("Greater Portmore", ["2 East", "3 East", "3 West", "4 West", "5 west", "6 East", "Farmcare", "Braeton",
         "Petcom Gas Station", "85(KFC, Burger King)", "Texaco Gas Station", "Marine Park","Naggo Head",
         "Bayside","Edgewater", "Bridgeport", "West Meade", "Garvey Meade", "Bridgeview", "Passage Fort", "PortmoreMall,",
@@ -186,10 +186,10 @@ guild_list = [
         "Portmore Pines", "Newland Road", "Cumberland Round-a-Bout", "Cumberland Morant Avenue",
         "Agusta Drive", "Portmore Drive", "Heart Academy", "Portmore Mall", "Toll Road", "Maxfield Avenue",
         "Russell Road", "Beechwood Avenue", "Half-way Tree Road", "Oxford Road", "Old Hope Road", "Wellington Drive",
-        "Mona Road", "UWI"], "$100", "6:00 AM, 9:30 PM"),
+        "Mona Road", "UWI"], "$160", "6:00 AM, 9:30 PM"),
         GuildRoute("Gregory Park", ["Christian Gardens", "Christian Pen", "Gregory Park Police Station", "Independence City",
         "Shell Gas Station", "Caymanas Park Entrance", "Top Waterford", "Waterford Park-way", "Waterford Terminus", "Portsmouth",
         "Passage Fort", "Heart Academy", "Portmore Mall", "Toll Road & Causeway Bridge", "Marcus Garvey Drive",
         "3 Miles Avenue", "Half-Way Tree Road", "Oxford Road", "Old Hope Road", "Wellington Drive", "UWI"],
-        "$100", "6:00 AM, 9:30 PM")
+        "$160", "6:00 AM, 9:30 PM")
     ]
