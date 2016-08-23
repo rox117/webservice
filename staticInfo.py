@@ -186,10 +186,10 @@ guild_list = [
         "Portmore Pines", "Newland Road", "Cumberland Round-a-Bout", "Cumberland Morant Avenue",
         "Agusta Drive", "Portmore Drive", "Heart Academy", "Portmore Mall", "Toll Road", "Maxfield Avenue",
         "Russell Road", "Beechwood Avenue", "Half-way Tree Road", "Oxford Road", "Old Hope Road", "Wellington Drive",
-        "Mona Road", "UWI"], "$160", "6:00 AM, 9:30 PM"),
+        "Mona Road", "UWI"], "$180", "6:00 AM, 9:30 PM"),
         GuildRoute("Gregory Park", ["Christian Gardens", "Christian Pen", "Gregory Park Police Station", "Independence City",
         "Shell Gas Station", "Caymanas Park Entrance", "Top Waterford", "Waterford Park-way", "Waterford Terminus", "Portsmouth",
         "Passage Fort", "Heart Academy", "Portmore Mall", "Toll Road & Causeway Bridge", "Marcus Garvey Drive",
         "3 Miles Avenue", "Half-Way Tree Road", "Oxford Road", "Old Hope Road", "Wellington Drive", "UWI"],
-        "$160", "6:00 AM, 9:30 PM")
+        "$180", "6:00 AM, 9:30 PM")
     ]
