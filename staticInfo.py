@@ -180,7 +180,7 @@ guild_list = [
         "Bayside","Edgewater", "Bridgeport", "West Meade", "Garvey Meade", "Bridgeview", "Passage Fort", "PortmoreMall,",
         "Causeway Bridge", "Marcus Garvey Drive", "3 Miles", "Spanish Town Road", "Maxfield Avenue",
         "Russell Road", "Beechwood Avenue", "Halfway Tree Road", "Oxford Road", "Old Hope Road", "Wellington Drive",
-        "Mona Road", "UWI"], "$100", "5:00 AM, 6:00 AM, 4:30 PM, 7:30 PM, 9:30 PM"),
+        "Mona Road", "UWI"], "$180", "5:00 AM, 6:00 AM, 4:30 PM, 7:30 PM, 9:30 PM"),
         GuildRoute("Monza", ["Greater Portmore Round-a-bout", "Epsom 6 West", "7 West", "8 West", "3 North",
         "Daytona", "Monza", "One North", "Caribbean Estate", "Esso Gas Station", "Scotia Bank", "Silverstone",
         "Portmore Pines", "Newland Road", "Cumberland Round-a-Bout", "Cumberland Morant Avenue",
